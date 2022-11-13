@@ -20,9 +20,9 @@ function Register() {
                     <Form.Control className='ctrl' type="password" placeholder="Confirm Password" />
                 </Form.Group>
                 <Form.Group className="ck mb-3" controlId="formBasicUser">
-                    <Form.Check className="text-light" type="checkbox" label="I agree with term & condition" />
+                    <Form.Check className="text-dark" type="checkbox" label="I agree with term & condition" />
                 </Form.Group>
-                <Button className='btn rounded-5 px-5 mb-4' variant="success" type="submit">
+                <Button className='btn rounded-5 px-5 mb-4' variant="warning" type="submit">
                     Sign Up
                 </Button>
             </Form>
